@@ -1,3 +1,3 @@
 scoreboard players enable @a back
-transfer server.halfpotato.online 25565 @a[scores={back=1}]
+execute as @a[scores={back=1}] run function minecraft:back_transfer with entity @s
 scoreboard players set @a back 0
